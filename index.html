@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jok Motor Mantap - Profil Usaha</title>
+  <style>
+    /* Reset sederhana */
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #72c6ef, #03506f);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background: rgba(0, 0, 0, 0.25);
+      padding: 40px 20px;
+      text-align: center;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    }
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+      letter-spacing: 2px;
+    }
+    header p {
+      font-size: 1.2rem;
+      font-weight: 500;
+      opacity: 0.85;
+    }
+
+    main {
+      flex: 1;
+      max-width: 900px;
+      margin: 40px auto;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      padding: 30px 40px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+      backdrop-filter: blur(8px);
+    }
+
+    section {
+      margin-bottom: 35px;
+    }
+
+    h2 {
+      font-size: 1.9rem;
+      margin-bottom: 15px;
+      border-bottom: 3px solid #1dd1a1;
+      padding-bottom: 6px;
+      letter-spacing: 1.2px;
+      color: #1dd1a1;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #e0e0e0;
+    }
+
+    ul.produk-list {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul.produk-list li {
+      background: #1dd1a1;
+      color: #004d40;
+      margin: 10px 0;
+      padding: 12px 20px;
+      border-radius: 12px;
+      font-weight: 600;
+      box-shadow: 0 3px 8px rgba(29, 209, 161, 0.6);
+      transition: background-color 0.3s ease;
+      cursor: default;
+    }
+    ul.produk-list li:hover {
+      background: #16a085;
+      color: #e0f7f1;
+    }
+
+    .kontak p {
+      margin: 8px 0;
+      font-weight: 600;
+      color: #b2f7ef;
+    }
+
+    footer {
+      background: #016064;
+      text-align: center;
+      padding: 20px 10px;
+      font-size: 0.9rem;
+      color: #a3d2ca;
+      letter-spacing: 0.05em;
+      user-select: none;
+      margin-top: auto;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      main {
+        margin: 20px 15px;
+        padding: 20px;
+      }
+      h2 {
+        font-size: 1.5rem;
+      }
+      ul.produk-list li {
+        font-size: 1rem;
+        padding: 10px 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Jok Motor Mantap</h1>
+    <p>Solusi Nyaman untuk Jok Motor Anda</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Tentang Kami</h2>
+      <p>
+        Jok Motor Mantap adalah usaha yang bergerak di bidang pembuatan dan penjualan jok motor berkualitas tinggi dengan desain custom sesuai keinginan pelanggan. Kami menggunakan bahan terbaik untuk memastikan kenyamanan dan ketahanan jok motor Anda.
+      </p>
+    </section>
+
+    <section>
+      <h2>Produk dan Layanan</h2>
+      <ul class="produk-list">
+        <li>Jok Motor Standar</li>
+        <li>Jok Motor Custom (Desain Sesuai Pesanan)</li>
+        <li>Penggantian dan Reparasi Jok Motor</li>
+        <li>Pelayanan Antar & Pasang di Tempat</li>
+      </ul>
+    </section>
+
+    <section class="kontak">
+      <h2>Kontak Kami</h2>
+      <p>Dokter jok, Rajamandala, Kec. Cipatat, Bandung, Jawa Barat 40754</p>
+      <p>Telepon/WA: 082240307800</p>
+      <p>Email: jokmotor@example.com</p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Jok Motor Mantap. Semua hak cipta dilindungi.
+  </footer>
+</body>
+</html>
